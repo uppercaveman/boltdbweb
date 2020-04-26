@@ -50,7 +50,7 @@ func init() {
 	port = os.Getenv("BOLTDBWEB_PORT")
 	// Use default values if environment not set.
 	if port == "" {
-		port = "8080"
+		port = "8098"
 	}
 	// Setup for command line processing
 	flag.BoolVar(&showHelp, "h", false, "display help")
