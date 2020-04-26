@@ -15,11 +15,12 @@ import (
 	"path"
 	"time"
 
-	"github.com/evnix/boltdbweb/web"
+	boltbrowserweb "boltdbweb/web"
+
 	"github.com/gin-gonic/gin"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/boltdb/bolt"
+	log "github.com/sirupsen/logrus"
 )
 
 const version = "v0.0.0"
